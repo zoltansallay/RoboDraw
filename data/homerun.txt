@@ -1,0 +1,19 @@
+# Format:
+# SET X 10 means "Set coordinate 'x' to 10!"
+# SET PEN 8 means "Set pen size to 8!"
+# TURN LEFT 30 means "Turn left 30 degrees!"
+# GO STRAIGHT 10 means "Go 10 units in the current direction!"
+# GO CIRCLE 10 4 means "Go 10 degrees on an arc of radius 4!" (positive radius means left, negative radius means right)
+#
+SET X 0
+SET Y 0
+SET DIRECTION 0
+SET PEN 8
+TURN LEFT 60
+GO STRAIGHT 100
+TURN RIGHT 120
+GO STRAIGHT 200
+TURN LEFT 120
+GO STRAIGHT 100
+TURN LEFT 30
+GO CIRCLE 180 100
